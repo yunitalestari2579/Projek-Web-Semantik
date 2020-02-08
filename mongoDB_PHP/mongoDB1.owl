@@ -1,0 +1,2028 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB"
+     xml:base="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:mongoDB="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#berjalanPadaSistemOperasi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#berjalanPadaSistemOperasi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#dapatMenjalankan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#dapatMenjalankan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#diDirikanOleh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#diDirikanOleh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#kekuranganDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#kekuranganDari">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kekurangan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#kelebihanDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#kelebihanDari">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#konfigurasiDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#konfigurasiDari">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#langkahSebelumnya -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#langkahSebelumnya">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#langkahSelanjutnya -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#langkahSelanjutnya">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#memiliki -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#memiliki">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#memilikiContoh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#memilikiContoh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mendukung -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mendukung">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menemukan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menemukan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mengembangkan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mengembangkan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Perusahaan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menggunakanClient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menggunakanClient">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menggunakanOperator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menggunakanOperator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#operatorDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#operatorDari">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Operator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#produkDari -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#produkDari">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#syntaxPada -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#syntaxPada">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contoh -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contoh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#deskripsi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#deskripsi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kekurangan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Operator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#fitur -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#fitur">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kekurangan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#fungsiSyntax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#fungsiSyntax">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jabatan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jabatan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#kapasitasMinimum -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#kapasitasMinimum">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#langkah -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#langkah">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mengembalikanNilai -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mengembalikanNilai">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#nama -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#nama">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Operator"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Perusahaan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#tahunDikembangkan -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#tahunDikembangkan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#tahunRilis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#tahunRilis">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#versiMinimum -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#versiMinimum">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#website -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#website">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ArrayQueryOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ArrayQueryOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#BitwiseQueryOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#BitwiseQueryOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#CommentOperator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#CommentOperator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Delete_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Delete_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ElementQueryOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ElementQueryOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#EvaluationQueryOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#EvaluationQueryOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Insert_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Insert_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kekurangan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kekurangan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Konfigurasi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#LogicalQueryOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#LogicalQueryOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Operator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Operator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Operator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Perusahaan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Perusahaan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Projection_Operators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Projection_Operators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#OperatorQueryandProjection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Read_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Read_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Update_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Update_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SintaksDasar"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Auto-sharding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Auto-sharding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+        <mongoDB:kelebihanDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Auto-sharding, merupakan fitur untuk memecah database yang besar menjadi beberapa bagian demi optimalisasi performa database. Penggunaannya sendiri sangat berguna ketika memiliki website dengan database yang jutaan baris, sharding akan membantu memecahnya menjadi beberapa bagian</mongoDB:deskripsi>
+        <mongoDB:fitur>Auto-sharding</mongoDB:fitur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#AutoStartService -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#AutoStartService">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#cekStatusService"/>
+        <mongoDB:deskripsi>jalankan perintah sudo systemctl enable mongod</mongoDB:deskripsi>
+        <mongoDB:langkah>Auto Start Service</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>C</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#CSharp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#CSharp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>CSharp</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ConnectorforBI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ConnectorforBI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+        <mongoDB:produkDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>allows users to create queries with SQL and visualize, graph, and report on their MongoDB Enterprise data using existing relational business intelligence tools such as Tableau, MicroStrategy, and Qlik.</mongoDB:deskripsi>
+        <mongoDB:nama>Connector for BI</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Cross-platform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Cross-platform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+        <mongoDB:kelebihanDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Cross-platform, sehingga dapat digunakan di Windows, Linux, OS X dan Solaris</mongoDB:deskripsi>
+        <mongoDB:fitur>Cross-platform</mongoDB:fitur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Dwight_Merriman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Dwight_Merriman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang"/>
+        <mongoDB:menemukan rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:jabatan>chairman</mongoDB:jabatan>
+        <mongoDB:nama>Dwight Merriman</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Eliot_Horowitz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Eliot_Horowitz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang"/>
+        <mongoDB:menemukan rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:jabatan>CTO</mongoDB:jabatan>
+        <mongoDB:nama>Eliot Horowitz</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Erlang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Erlang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>Erlang</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#FSharp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#FSharp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>FSharp</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Haskell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Haskell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>Haskell</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ImportPublicKey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ImportPublicKey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatFileRepository"/>
+        <mongoDB:deskripsi>jalankan perintah sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5</mongoDB:deskripsi>
+        <mongoDB:langkah>Import Public Key</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#InstallMongoDB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#InstallMongoDB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#updateRepository"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanServiceMongod"/>
+        <mongoDB:deskripsi>jalankan perintah sudo apt-get install mongodb-org</mongoDB:deskripsi>
+        <mongoDB:langkah>Install MongoDB</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Java -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Java">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>Java</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#JavaScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#JavaScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>JavaScript</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KevinP.Ryan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KevinP.Ryan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Orang"/>
+        <mongoDB:menemukan rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:jabatan>board member</mongoDB:jabatan>
+        <mongoDB:nama>Kevin P. Ryan</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Lips -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Lips">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>Lips</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#DBMS"/>
+        <mongoDB:berjalanPadaSistemOperasi rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#linux"/>
+        <mongoDB:berjalanPadaSistemOperasi rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#macOS"/>
+        <mongoDB:berjalanPadaSistemOperasi rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#windows"/>
+        <mongoDB:diDirikanOleh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Dwight_Merriman"/>
+        <mongoDB:diDirikanOleh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Eliot_Horowitz"/>
+        <mongoDB:diDirikanOleh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KevinP.Ryan"/>
+        <mongoDB:memiliki rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ConnectorforBI"/>
+        <mongoDB:memiliki rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBCloudManager"/>
+        <mongoDB:memiliki rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBCompass"/>
+        <mongoDB:memiliki rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBEnterprise"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#C"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#CSharp"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Erlang"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#FSharp"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Haskell"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Java"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#JavaScript"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Lips"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Perl"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PowerShell"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Python"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Scala"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:mendukung rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#C++"/>
+        <mongoDB:nama>MongoDB</mongoDB:nama>
+        <mongoDB:tahunDikembangkan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</mongoDB:tahunDikembangkan>
+        <mongoDB:tahunRilis rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</mongoDB:tahunRilis>
+        <mongoDB:website>mongodb.com</mongoDB:website>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBCloudManager -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBCloudManager">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+        <mongoDB:produkDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>MongoDB Cloud Manager can automate, monitor, and back up your MongoDB infrastructure.</mongoDB:deskripsi>
+        <mongoDB:nama>MongoDB Cloud Manager</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBCompass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBCompass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+        <mongoDB:produkDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>MongoDB Compass is the GUI for MongoDB. Compass allows you to analyze and understand the contents of your data without formal knowledge of MongoDB query syntax. In addition to exploring your data in a visual environment, you can also use Compass to optimize query performance, manage indexes, and implement document validation.</mongoDB:deskripsi>
+        <mongoDB:nama>MongoDB Compass</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBEnterprise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDBEnterprise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Produk"/>
+        <mongoDB:produkDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>The MongoDB Enterprise Kubernetes Operator translates the human knowledge of creating a MongoDB instance into a scalable, repeatable, and standardized method. Kubernetes needs help creating and managing stateful applications like databases. It needs to configure the network, persist storage, and dedicate computing capacity without additional human effort on each container.</mongoDB:deskripsi>
+        <mongoDB:nama>MongoDB Enterprise</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>PHP</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Perl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Perl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>Perl</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PowerShell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PowerShell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>PowerShell</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>Python</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Replikasi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Replikasi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+        <mongoDB:kelebihanDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Replikasi, adalah fitur yang sangat bermanfaat untuk backup data secara realtime. MongoDB sangat cocok digunakan untuk portal berita ataupun blog,.</mongoDB:deskripsi>
+        <mongoDB:fitur>Replikasi</mongoDB:fitur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Ruby -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Ruby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>Ruby</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Scala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Scala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>Scala</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatDanGunakanDatabasePHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatDanGunakanDatabasePHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$db = $link-&gt;cobadb;</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>membuat dan menggunakan Database PHP</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatFileRepository -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatFileRepository">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ImportPublicKey"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#updateRepository"/>
+        <mongoDB:deskripsi>jalankan perintah echo &quot;deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse&quot; | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list</mongoDB:deskripsi>
+        <mongoDB:langkah>buat File Repository</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatFolderData -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatFolderData">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#munculNotif"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanMongod"/>
+        <mongoDB:deskripsi>Buat folder dengan nama data pada direktori C: dan dan didalamnya ada folder dengan nama db</mongoDB:deskripsi>
+        <mongoDB:langkah>Buat Folder Data</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#bukaCMD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#bukaCMD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#installFile"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#pindahDirektori"/>
+        <mongoDB:deskripsi>Buka command line atau Command Prompt dengan akses Administrator</mongoDB:deskripsi>
+        <mongoDB:langkah>buka CMD</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#cekStatusService -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#cekStatusService">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanServiceMongod"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#AutoStartService"/>
+        <mongoDB:deskripsi>jalankan perintah sudo systemctl status mongod</mongoDB:deskripsi>
+        <mongoDB:langkah>cek Status Service</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohFind -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohFind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:contoh>db.collection.find( { qty: { $gt: 4 } } )</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>contoh Find</mongoDB:fungsiSyntax>
+        <mongoDB:mengembalikanNilai>{ &quot;_id&quot;: &quot;apples&quot;, &quot;qty&quot;: 5 }
+{ &quot;_id&quot;: &quot;bananas&quot;, &quot;qty&quot;: 7 }</mongoDB:mengembalikanNilai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohReplace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohReplace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:contoh>try {
+   db.restaurant.replaceOne(
+      { &quot;name&quot; : &quot;Central Perk Cafe&quot; },
+      { &quot;name&quot; : &quot;Central Pork Cafe&quot;, &quot;Borough&quot; : &quot;Manhattan&quot; }
+   );
+} catch (e){
+   print(e);
+}</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>contoh Replace</mongoDB:fungsiSyntax>
+        <mongoDB:mengembalikanNilai>{ &quot;acknowledged&quot; : true, &quot;matchedCount&quot; : 1, &quot;modifiedCount&quot; : 1 }</mongoDB:mengembalikanNilai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohUpdateMany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohUpdateMany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:contoh>try {
+   db.restaurant.updateMany(
+      { violations: { $gt: 4 } },
+      { $set: { &quot;Review&quot; : true } }
+   );
+} catch (e) {
+   print(e);
+}</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>contoh updateMany</mongoDB:fungsiSyntax>
+        <mongoDB:mengembalikanNilai>{ &quot;acknowledged&quot; : true, &quot;matchedCount&quot; : 2, &quot;modifiedCount&quot; : 2 }</mongoDB:mengembalikanNilai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohUpdateOne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohUpdateOne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:contoh>try {
+   db.restaurant.updateOne(
+      { &quot;name&quot; : &quot;Central Perk Cafe&quot; },
+      { $set: { &quot;violations&quot; : 3 } }
+   );
+} catch (e) {
+   print(e);
+}</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>contoh Update One</mongoDB:fungsiSyntax>
+        <mongoDB:mengembalikanNilai>{ &quot;acknowledged&quot; : true, &quot;matchedCount&quot; : 1, &quot;modifiedCount&quot; : 1 }</mongoDB:mengembalikanNilai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#createCollectionPHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#createCollectionPHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$col = $db-&gt;user;</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>create Collection PHP</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#deleteCollection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#deleteCollection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$col-&gt;drop();</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>delete Collection</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#deleteDataPHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#deleteDataPHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$col-&gt;remove(array(&apos;age&apos;=&gt;24),
+             array(&apos;justOne&apos;=&gt;true,&apos;safe&apos;=&gt;true));</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>delete Data PHP</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#deleteDatabase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#deleteDatabase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$db-&gt;drop();</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>delete Database</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#downloadMongoDB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#downloadMongoDB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#installFile"/>
+        <mongoDB:deskripsi>Melakukan download pada website mongodb.com</mongoDB:deskripsi>
+        <mongoDB:langkah>download MongoDB</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#gunakanCommandMongo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#gunakanCommandMongo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanMongod"/>
+        <mongoDB:deskripsi>Kemudian untuk mulai menggunakan mongoDB bisa menggunakan command mongo pada file direktori &quot;C:\Program Files\MongoDB\Server\4.2\bin&quot;</mongoDB:deskripsi>
+        <mongoDB:langkah>gunakan Command Mongo</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#insertDataPHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#insertDataPHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh xml:lang="gmail.com&apos;);  $col-&gt;insert($doc,true);">$doc = array(&apos;login&apos; =&gt; &apos;cobadb&apos;, 
+             &apos;password&apos; =&gt; &apos;wahyusptd9898&apos;, 
+             &apos;email&apos;    =&gt; &apos;wahyusptd</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>insert Data PHP</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#installFile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#installFile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#downloadMongoDB"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#bukaCMD"/>
+        <mongoDB:deskripsi>Install file dengan ektensi .msi</mongoDB:deskripsi>
+        <mongoDB:langkah>install File</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanMongod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanMongod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatFolderData"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#gunakanCommandMongo"/>
+        <mongoDB:deskripsi>Lakukan langkah eksekusi command mongod sekali lagi</mongoDB:deskripsi>
+        <mongoDB:langkah>jalankan Mongod</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanMongod.exe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanMongod.exe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#pindahDirektori"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#munculNotif"/>
+        <mongoDB:deskripsi>Lakukan eksekusi pada file mongod.exe dengan command mongod</mongoDB:deskripsi>
+        <mongoDB:langkah>jalankan Mongod.exe</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanServiceMongod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanServiceMongod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#InstallMongoDB"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#cekStatusService"/>
+        <mongoDB:deskripsi>jalankan perintah sudo systemctl start mongod</mongoDB:deskripsi>
+        <mongoDB:langkah>jalankan Service Mongod</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#koneksiPHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#koneksiPHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>try
+{
+	$link = new Mongo();
+}
+catch(MongoConncetionException $e)
+{
+	die(&quot;Koneksi Gagal. cek untuk memastikan MongoDB nya jalan&quot;);
+}</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>koneksi PHP</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#linux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#linux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi"/>
+        <mongoDB:dapatMenjalankan rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:nama>linux</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#macOS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#macOS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi"/>
+        <mongoDB:dapatMenjalankan rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:nama>macOS</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#membuatindexUnique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#membuatindexUnique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$col-&gt;ensureIndex(array(&quot;login&quot; =&gt; 1),
+                  array(&quot;unique&quot; =&gt; true, &quot;dropDups&quot; =&gt;true));</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>membuat index Unique</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menambahBeberapaDokumenTanpaID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menambahBeberapaDokumenTanpaID">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:contoh>try {
+   db.products.insertMany( [
+      { item: &quot;card&quot;, qty: 15 },
+      { item: &quot;envelope&quot;, qty: 20 },
+      { item: &quot;stamps&quot; , qty: 30 }
+   ] );
+} catch (e) {
+   print (e);
+}</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>menambah Beberapa Dokumen Tanpa ID</mongoDB:fungsiSyntax>
+        <mongoDB:mengembalikanNilai>{
+   &quot;acknowledged&quot; : true,
+   &quot;insertedIds&quot; : [
+      ObjectId(&quot;562a94d381cb9f1cd6eb0e1a&quot;),
+      ObjectId(&quot;562a94d381cb9f1cd6eb0e1b&quot;),
+      ObjectId(&quot;562a94d381cb9f1cd6eb0e1c&quot;)
+   ]
+}</mongoDB:mengembalikanNilai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menambahDokumenTanpaMenyebutkanID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menambahDokumenTanpaMenyebutkanID">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:contoh>try {
+   db.products.insertOne( {item: &quot;card&quot;, qty: 15 } );
+} catch (e) {
+   print (e);
+};</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>menambah Dokumen Tanpa Menyebutkan ID</mongoDB:fungsiSyntax>
+        <mongoDB:mengembalikanNilai>{
+   &quot;acknowledged&quot; : true,
+   &quot;insertedId&quot; : ObjectId(&quot;56fc40f9d735c28df206d078&quot;)
+}</mongoDB:mengembalikanNilai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menghapusBanyakDokumen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menghapusBanyakDokumen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:contoh>try {
+   db.orders.deleteMany( { &quot;client&quot; : &quot;Crude Traders Inc.&quot; } );
+} catch (e) {
+   print (e);
+}</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>menghapus Banyak Dokumen</mongoDB:fungsiSyntax>
+        <mongoDB:mengembalikanNilai>{ &quot;acknowledged&quot; : true, &quot;deletedCount&quot; : 10 }</mongoDB:mengembalikanNilai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menghapusSebuahDokumen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menghapusSebuahDokumen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell"/>
+        <mongoDB:contoh>try {
+   db.orders.deleteOne( { &quot;_id&quot; : ObjectId(&quot;563237a41a4d68582c2509da&quot;) } );
+} catch (e) {
+   print(e);
+}</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>menghapus Sebuah Dokumen</mongoDB:fungsiSyntax>
+        <mongoDB:mengembalikanNilai>{ &quot;acknowledged&quot; : true, &quot;deletedCount&quot; : 1 }</mongoDB:mengembalikanNilai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#mongoShell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>mongoShell</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#munculNotif -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#munculNotif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanMongod.exe"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatFolderData"/>
+        <mongoDB:deskripsi>Akan ada notifikasi bahwa file data database belum dibuat</mongoDB:deskripsi>
+        <mongoDB:langkah>muncul Notif</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#performaCepat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#performaCepat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kelebihan"/>
+        <mongoDB:kelebihanDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Performa yang ditawarkan MongoDB lebih cepat dibandingkan MySQL ini disebabkan oleh memcached dan format dokumennya yang berbentuk seperti JSON</mongoDB:deskripsi>
+        <mongoDB:fitur>performa Cepat</mongoDB:fitur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#perluServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#perluServer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kekurangan"/>
+        <mongoDB:kekuranganDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>MongoDB harus diinstall di sebuah server</mongoDB:deskripsi>
+        <mongoDB:fitur>perlu Server</mongoDB:fitur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#pindahDirektori -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#pindahDirektori">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiWindows"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#bukaCMD"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#jalankanMongod.exe"/>
+        <mongoDB:deskripsi>Pindah direktori kebagian &quot;C:\Program Files\MongoDB\Server\4.2\bin&quot;</mongoDB:deskripsi>
+        <mongoDB:langkah>pindah Direktori</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#putusKoneksiPHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#putusKoneksiPHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$link-&gt;close();</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>putus Koneksi PHP</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#queryDataPHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#queryDataPHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$res = $col-&gt;find();
+echo &apos;Semua Document :&apos;;
+
+foreach($res as $doc){
+    echo &apos;&lt;pre&gt;&apos;;
+    print_r($doc);
+    echo &apos;&lt;/pre&gt;&apos;;
+}
+
+// Query untuk document yang sesuai dengan ID terakhir di input
+$doc = $col-&gt;findone(array(&apos;_id&apos; =&gt; $id));
+       echo &apos;document _id : $id&apos;;
+       echo &apos;&lt;pre&gt;&apos;;
+           print_r($doc);
+       echo &apos;&lt;/pre&gt;&apos;;</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>query Data PHP</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#sedikitHostingYangSupport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#sedikitHostingYangSupport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kekurangan"/>
+        <mongoDB:kekuranganDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>MongoDB belum support di banyak hosting.</mongoDB:deskripsi>
+        <mongoDB:fitur>sedikit Hosting Yang Support</mongoDB:fitur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#tidakCocokAppTransaksi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#tidakCocokAppTransaksi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Kekurangan"/>
+        <mongoDB:kekuranganDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Tidak cocok untuk aplikasi proses transaksi.</mongoDB:deskripsi>
+        <mongoDB:fitur>tidak Cocok untuk App Transaksi</mongoDB:fitur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#updateDataPHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#updateDataPHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Script"/>
+        <mongoDB:menggunakanClient rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#PHP"/>
+        <mongoDB:contoh>$col-&gt;update(array(&apos;_id&apos; =&gt; $id), 
+             array(&apos;$set&apos; =&gt; array(&apos;password&apos; =&gt; &apos;wahyusptd8989&apos;)));
+$doc = $col-&gt;findone(array(&apos;_id&apos;=&gt;$id));
+       echo &apos;Updated document: &lt;br /&gt;&lt;pre&gt;&apos;;
+           print_r($doc);
+       echo &apos;&lt;/pre&gt;&apos;;</mongoDB:contoh>
+        <mongoDB:fungsiSyntax>update Data PHP</mongoDB:fungsiSyntax>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#updateRepository -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#updateRepository">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#KonfigurasiLinux"/>
+        <mongoDB:konfigurasiDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:langkahSebelumnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#buatFileRepository"/>
+        <mongoDB:langkahSelanjutnya rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#InstallMongoDB"/>
+        <mongoDB:deskripsi>jalankan perintah sudo apt-get update</mongoDB:deskripsi>
+        <mongoDB:langkah>update Repository</mongoDB:langkah>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#windows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#windows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#SistemOperasi"/>
+        <mongoDB:dapatMenjalankan rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:nama>windows</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Projection_Operators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Projects the first element in an array that matches the query condition.</mongoDB:deskripsi>
+        <mongoDB:nama>$</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$all -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$all">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ArrayQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches arrays that contain all elements specified in the query.</mongoDB:deskripsi>
+        <mongoDB:nama>$all</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$and -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$and">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#LogicalQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Joins query clauses with a logical AND returns all documents that match the conditions of both clauses.</mongoDB:deskripsi>
+        <mongoDB:nama>$and</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$bitsAllClear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$bitsAllClear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#BitwiseQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches numeric or binary values in which a set of bit positions all have a value of 0</mongoDB:deskripsi>
+        <mongoDB:nama>$bitsAllClear</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$bitsAllSet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$bitsAllSet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#BitwiseQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches numeric or binary values in which a set of bit positions all have a value of 1.</mongoDB:deskripsi>
+        <mongoDB:nama>$bitsAllSet</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$bitsAnyClear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$bitsAnyClear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#BitwiseQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches numeric or binary values in which any bit from a set of bit positions has a value of 0.</mongoDB:deskripsi>
+        <mongoDB:nama>$bitsAnyClear</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$bitsAnySet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$bitsAnySet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#BitwiseQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches numeric or binary values in which any bit from a set of bit positions has a value of 1.</mongoDB:deskripsi>
+        <mongoDB:nama>$bitsAnySet</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$box -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$box">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Specifies a rectangular box using legacy coordinate pairs for $geoWithin queries. The 2d index supports $box.</mongoDB:deskripsi>
+        <mongoDB:nama>$box</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$center -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$center">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Specifies a circle using legacy coordinate pairs to $geoWithin queries when using planar geometry. The 2d index supports $center.</mongoDB:deskripsi>
+        <mongoDB:nama>$center</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$centerSphere -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$centerSphere">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Specifies a circle using either legacy coordinate pairs or GeoJSON format for $geoWithin queries when using spherical geometry. The 2dsphere and 2d indexes support $centerSphere.</mongoDB:deskripsi>
+        <mongoDB:nama>$centerSphere</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$comment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$comment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#CommentOperator"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>The $comment query operator associates a comment to any expression taking a query predicate.</mongoDB:deskripsi>
+        <mongoDB:nama>$comment</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$elemMatch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$elemMatch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ArrayQueryOperators"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Projection_Operators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Selects documents if element in the array field matches all the specified $elemMatch conditions.	Projects the first element in an array that matches the specified $elemMatch condition.</mongoDB:deskripsi>
+        <mongoDB:nama>$elemMatch</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$eq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$eq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches values that are equal to a specified value.</mongoDB:deskripsi>
+        <mongoDB:nama>$eq</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$exists -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$exists">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ElementQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches documents that have the specified field.</mongoDB:deskripsi>
+        <mongoDB:nama>$exists</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$expr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$expr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#EvaluationQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Allows use of aggregation expressions within the query language.</mongoDB:deskripsi>
+        <mongoDB:nama>$expr</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$geoIntersects -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$geoIntersects">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Selects geometries that intersect with a GeoJSON geometry. The 2dsphere index supports $geoIntersects.</mongoDB:deskripsi>
+        <mongoDB:nama>$geoIntersects</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$geoWithin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$geoWithin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Selects geometries within a bounding GeoJSON geometry. The 2dsphere and 2d indexes support $geoWithin.</mongoDB:deskripsi>
+        <mongoDB:nama>$geoWithin</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$geometry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$geometry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Specifies a geometry in GeoJSON format to geospatial query operators.</mongoDB:deskripsi>
+        <mongoDB:nama>$geometry</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$gt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$gt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches values that are greater than a specified value.</mongoDB:deskripsi>
+        <mongoDB:nama>$gt</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$gte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$gte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches values that are greater than or equal to a specified value.</mongoDB:deskripsi>
+        <mongoDB:nama>$gte</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$in -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$in">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches any of the values specified in an array.</mongoDB:deskripsi>
+        <mongoDB:nama>$in</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$jsonSchema -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$jsonSchema">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#EvaluationQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Validate documents against the given JSON Schema.</mongoDB:deskripsi>
+        <mongoDB:nama>$jsonSchema</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$lt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$lt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches values that are less than a specified value.</mongoDB:deskripsi>
+        <mongoDB:nama>$lt</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$lte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$lte">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches values that are less than or equal to a specified value.</mongoDB:deskripsi>
+        <mongoDB:nama>$lte</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$maxDistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$maxDistance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Specifies a maximum distance to limit the results of $near and $nearSphere queries. The 2dsphere and 2d indexes support $maxDistance.</mongoDB:deskripsi>
+        <mongoDB:nama>$maxDistance</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$meta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$meta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Projection_Operators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Projects the document’s score assigned during $text operation.</mongoDB:deskripsi>
+        <mongoDB:nama>$meta</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$minDistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$minDistance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Specifies a minimum distance to limit the results of $near and $nearSphere queries. For use with 2dsphere index only.</mongoDB:deskripsi>
+        <mongoDB:nama>$minDistance</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$mod -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$mod">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#EvaluationQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Performs a modulo operation on the value of a field and selects documents with a specified result.</mongoDB:deskripsi>
+        <mongoDB:nama>$mod</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$ne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$ne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches all values that are not equal to a specified value.</mongoDB:deskripsi>
+        <mongoDB:nama>$ne</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$near -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$near">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Returns geospatial objects in proximity to a point. Requires a geospatial index. The 2dsphere and 2d indexes support $near.</mongoDB:deskripsi>
+        <mongoDB:nama>$near</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$nearSphere -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$nearSphere">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Returns geospatial objects in proximity to a point on a sphere. Requires a geospatial index. The 2dsphere and 2d indexes support $nearSphere.</mongoDB:deskripsi>
+        <mongoDB:nama>$nearSphere</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$nin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$nin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ComparisonQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches none of the values specified in an array.</mongoDB:deskripsi>
+        <mongoDB:nama>$nin</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$nor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$nor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#LogicalQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Joins query clauses with a logical NOR returns all documents that fail to match both clauses.</mongoDB:deskripsi>
+        <mongoDB:nama>$nor</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$not -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$not">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#LogicalQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Inverts the effect of a query expression and returns documents that do not match the query expression.</mongoDB:deskripsi>
+        <mongoDB:nama>$not</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$or -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$or">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#LogicalQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Joins query clauses with a logical OR returns all documents that match the conditions of either clause.</mongoDB:deskripsi>
+        <mongoDB:nama>$or</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$polygon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$polygon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Specifies a polygon to using legacy coordinate pairs for $geoWithin queries. The 2d index supports $center.</mongoDB:deskripsi>
+        <mongoDB:nama>$polygon</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$regex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$regex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#EvaluationQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Selects documents where values match a specified regular expression.</mongoDB:deskripsi>
+        <mongoDB:nama>$regex</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$size -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$size">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ArrayQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Selects documents if the array field is a specified size.</mongoDB:deskripsi>
+        <mongoDB:nama>$size</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$slice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$slice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Projection_Operators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Limits the number of elements projected from an array. Supports skip and limit slices.</mongoDB:deskripsi>
+        <mongoDB:nama>$slice</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$text -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$text">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#EvaluationQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Performs text search.</mongoDB:deskripsi>
+        <mongoDB:nama>$text</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$type -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$type">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#ElementQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Selects documents if a field is of the specified type.</mongoDB:deskripsi>
+        <mongoDB:nama>$type</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$uniqueDocs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$uniqueDocs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#GeospatialQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Deprecated. Modifies a $geoWithin and $near queries to ensure that even if a document matches the query multiple times, the query returns the document once.</mongoDB:deskripsi>
+        <mongoDB:nama>$uniqueDocs</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$where -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#$where">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#EvaluationQueryOperators"/>
+        <mongoDB:operatorDari rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:deskripsi>Matches documents that satisfy a JavaScript expression.</mongoDB:deskripsi>
+        <mongoDB:nama>$where</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#10gen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#10gen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Perusahaan"/>
+        <mongoDB:mengembangkan rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:nama>10gen</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#C++ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#C++">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Client"/>
+        <mongoDB:nama>C++</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.deleteMany() -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.deleteMany()">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Delete_Data"/>
+        <mongoDB:memilikiContoh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menghapusBanyakDokumen"/>
+        <mongoDB:syntaxPada rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:fungsiSyntax>Menghapus semua dokumen yang memenuhi syarat filter dari sebuah collection</mongoDB:fungsiSyntax>
+        <mongoDB:nama>&apos;db.collection.deleteMany()&apos;</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.deleteOne() -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.deleteOne()">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Delete_Data"/>
+        <mongoDB:memilikiContoh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menghapusSebuahDokumen"/>
+        <mongoDB:syntaxPada rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:fungsiSyntax>Menghapus sebuah dokumen dari sebuah collection</mongoDB:fungsiSyntax>
+        <mongoDB:nama>&apos;db.collection.deleteOne()&apos;</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.find(query,projection) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.find(query,projection)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Read_Data"/>
+        <mongoDB:memilikiContoh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohFind"/>
+        <mongoDB:syntaxPada rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:fungsiSyntax>Mengambil data yang memenuhi syarat parameter query dan projection</mongoDB:fungsiSyntax>
+        <mongoDB:nama>&apos;db.collection.find()&apos;</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.insertMany() -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.insertMany()">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Insert_Data"/>
+        <mongoDB:memilikiContoh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menambahBeberapaDokumenTanpaID"/>
+        <mongoDB:syntaxPada rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:fungsiSyntax>Menambahkan banyak data</mongoDB:fungsiSyntax>
+        <mongoDB:nama>&apos;db.collection.insertMany()&apos;</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.insertOne() -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.insertOne()">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Insert_Data"/>
+        <mongoDB:memilikiContoh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#menambahDokumenTanpaMenyebutkanID"/>
+        <mongoDB:syntaxPada rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:fungsiSyntax>Menambahkan satu data</mongoDB:fungsiSyntax>
+        <mongoDB:nama>&apos;db.collection.insertOne()&apos;</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.replaceOne(filter,replacement,options) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.replaceOne(filter,replacement,options)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Update_Data"/>
+        <mongoDB:memilikiContoh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohReplace"/>
+        <mongoDB:syntaxPada rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:fungsiSyntax>Mengganti sebuah dokumen berdasarkan  filter pada collection</mongoDB:fungsiSyntax>
+        <mongoDB:nama>&apos;db.collection.replaceOne()&apos;</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.updateMany(filter,update,options) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.updateMany(filter,update,options)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Update_Data"/>
+        <mongoDB:memilikiContoh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohUpdateMany"/>
+        <mongoDB:syntaxPada rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:fungsiSyntax>mengupdate semua dokumen yang sama dengan filter yang disbutkan untuk sebuah collection.</mongoDB:fungsiSyntax>
+        <mongoDB:nama>&apos;db.collection.updateMany()&apos;</mongoDB:nama>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.updateOne(filter,update,options) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#db.collection.updateOne(filter,update,options)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#Update_Data"/>
+        <mongoDB:memilikiContoh rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#contohUpdateOne"/>
+        <mongoDB:syntaxPada rdf:resource="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB#MongoDB"/>
+        <mongoDB:fungsiSyntax>Mengupdate sebuah dokumen tunggal dalam collection berdasarkan filter</mongoDB:fungsiSyntax>
+        <mongoDB:nama>&apos;db.collection.updateOne()&apos;</mongoDB:nama>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

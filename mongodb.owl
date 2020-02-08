@@ -1,0 +1,2417 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB">
+    <Prefix name="" IRI="http://www.semanticweb.org/benz/ontologies/2019/10/mongoDB"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ArrayQueryOperators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BitwiseQueryOperators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommentOperator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComparisonQueryOperators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delete_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElementQueryOperators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluationQueryOperators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeospatialQueryOperators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insert_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LogicalQueryOperators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Projection_Operators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Read_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Script"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SintaksDasar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemOperasi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Update_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bahasaPemrograman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kekurangan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kelebihan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konfigurasi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konfigurasiLinux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#konfigurasiWindows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perusahaan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#produk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#berjalanPadaSistemOperasi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dapatMenjalankan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diDirikanOleh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memiliki"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#memilikiContoh"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mendukung"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#menemukan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mengembangkan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#menggunakanOperator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produkDari"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#syntaxPada"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contohSyntax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#deskripsi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dibutuhkanKapasitasMinimum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dikembangkanSejakTahun"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dirilisPadaTahun"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fungsiSyntax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#memilikiJabatan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#memilikiNama"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mengembalikanNilai"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mengembangkan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#versiMinimum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#website"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auto-sharding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AutoStartService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CSharp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ConnectorforBI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cross-platform"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dwight_Merriman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eliot_Horowitz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erlang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FSharp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Haskell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ImportPublicKey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InstallMongoDB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KevinP.Ryan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lips"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MongoDBCloudManager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MongoDBCompass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MongoDBEnterprise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PowerShell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Replikasi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ruby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buatDanGunakanDatabasePHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buatFileRepository"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buatFolderData"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bukaCMD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cekStatusService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contohFind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contohReplace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contohUpdateMany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contohUpdateOne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#createCollectionPHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deleteCollection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deleteDataPHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#deleteDatabase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#downloadMongoDB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gunakanCommandMongo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insertDataPHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#installFile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jalankanMongod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jalankanMongod.exe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jalankanServiceMongod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#koneksiPHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#linux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#macOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#membuatindexUnique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menambahBeberapaDokumenTanpaID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menambahDokumenTanpaMenyebutkanID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menghapusBanyakDokumen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menghapusSebuahDokumen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#munculNotif"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#performaCepat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perluServer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pindahDirektori"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#putusKoneksiPHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#queryDataPHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sedikitHostingYangSupport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tidakCocokAppTransaksi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#updateDataPHP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#updateRepository"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#windows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$all"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$and"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$bitsAllClear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$bitsAllSet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$bitsAnyClear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$bitsAnySet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$box"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$center"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$centerSphere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$comment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$elemMatch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$eq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$exists"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$expr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$geoIntersects"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$geoWithin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$geometry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$gt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$gte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$jsonSchema"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$lt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$lte"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$maxDistance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$meta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$minDistance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$mod"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$ne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$near"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$nearSphere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$nin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$nor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$not"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$or"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$polygon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$regex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$size"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$slice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$text"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$uniqueDocs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#$where"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10gen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C++"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#db.collection.deleteMany()"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#db.collection.deleteOne()"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#db.collection.replaceOne(filter,replacement,options)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#db.collection.updateMany(filter,update,options)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.find(query,projection)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertMany()"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertOne()"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.updateOne(filter,update,options)"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ArrayQueryOperators"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BitwiseQueryOperators"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommentOperator"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delete_Data"/>
+        <Class IRI="#SintaksDasar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElementQueryOperators"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluationQueryOperators"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insert_Data"/>
+        <Class IRI="#SintaksDasar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LogicalQueryOperators"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperatorQueryandProjection"/>
+        <Class IRI="#Operator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Projection_Operators"/>
+        <Class IRI="#OperatorQueryandProjection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Read_Data"/>
+        <Class IRI="#SintaksDasar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Update_Data"/>
+        <Class IRI="#SintaksDasar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konfigurasiLinux"/>
+        <Class IRI="#konfigurasi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#konfigurasiWindows"/>
+        <Class IRI="#konfigurasi"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#kelebihan"/>
+        <NamedIndividual IRI="#Auto-sharding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiLinux"/>
+        <NamedIndividual IRI="#AutoStartService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#CSharp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#produk"/>
+        <NamedIndividual IRI="#ConnectorforBI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelebihan"/>
+        <NamedIndividual IRI="#Cross-platform"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Orang"/>
+        <NamedIndividual IRI="#Dwight_Merriman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Orang"/>
+        <NamedIndividual IRI="#Eliot_Horowitz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#Erlang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#FSharp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#Haskell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiLinux"/>
+        <NamedIndividual IRI="#ImportPublicKey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiLinux"/>
+        <NamedIndividual IRI="#InstallMongoDB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Orang"/>
+        <NamedIndividual IRI="#KevinP.Ryan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#Lips"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#produk"/>
+        <NamedIndividual IRI="#MongoDBCloudManager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#produk"/>
+        <NamedIndividual IRI="#MongoDBCompass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#produk"/>
+        <NamedIndividual IRI="#MongoDBEnterprise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#Perl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#PowerShell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelebihan"/>
+        <NamedIndividual IRI="#Replikasi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#Ruby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#Scala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#buatDanGunakanDatabasePHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiLinux"/>
+        <NamedIndividual IRI="#buatFileRepository"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#buatFolderData"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#bukaCMD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiLinux"/>
+        <NamedIndividual IRI="#cekStatusService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#contohFind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#contohReplace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#contohUpdateMany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#contohUpdateOne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#createCollectionPHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#deleteCollection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#deleteDataPHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#deleteDatabase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#downloadMongoDB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#gunakanCommandMongo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#insertDataPHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#installFile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#jalankanMongod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#jalankanMongod.exe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiLinux"/>
+        <NamedIndividual IRI="#jalankanServiceMongod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#koneksiPHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SistemOperasi"/>
+        <NamedIndividual IRI="#linux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SistemOperasi"/>
+        <NamedIndividual IRI="#macOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#membuatindexUnique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#menambahBeberapaDokumenTanpaID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#menambahDokumenTanpaMenyebutkanID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#menghapusBanyakDokumen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#menghapusSebuahDokumen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#munculNotif"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kelebihan"/>
+        <NamedIndividual IRI="#performaCepat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kekurangan"/>
+        <NamedIndividual IRI="#perluServer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiWindows"/>
+        <NamedIndividual IRI="#pindahDirektori"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#putusKoneksiPHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#queryDataPHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kekurangan"/>
+        <NamedIndividual IRI="#sedikitHostingYangSupport"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kekurangan"/>
+        <NamedIndividual IRI="#tidakCocokAppTransaksi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Script"/>
+        <NamedIndividual IRI="#updateDataPHP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#konfigurasiLinux"/>
+        <NamedIndividual IRI="#updateRepository"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SistemOperasi"/>
+        <NamedIndividual IRI="#windows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Projection_Operators"/>
+        <NamedIndividual IRI="#$"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArrayQueryOperators"/>
+        <NamedIndividual IRI="#$all"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LogicalQueryOperators"/>
+        <NamedIndividual IRI="#$and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BitwiseQueryOperators"/>
+        <NamedIndividual IRI="#$bitsAllClear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BitwiseQueryOperators"/>
+        <NamedIndividual IRI="#$bitsAllSet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BitwiseQueryOperators"/>
+        <NamedIndividual IRI="#$bitsAnyClear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BitwiseQueryOperators"/>
+        <NamedIndividual IRI="#$bitsAnySet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$box"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$center"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$centerSphere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CommentOperator"/>
+        <NamedIndividual IRI="#$comment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArrayQueryOperators"/>
+        <NamedIndividual IRI="#$elemMatch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Projection_Operators"/>
+        <NamedIndividual IRI="#$elemMatch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <NamedIndividual IRI="#$eq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElementQueryOperators"/>
+        <NamedIndividual IRI="#$exists"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluationQueryOperators"/>
+        <NamedIndividual IRI="#$expr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$geoIntersects"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$geoWithin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$geometry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <NamedIndividual IRI="#$gt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <NamedIndividual IRI="#$gte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <NamedIndividual IRI="#$in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluationQueryOperators"/>
+        <NamedIndividual IRI="#$jsonSchema"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <NamedIndividual IRI="#$lt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <NamedIndividual IRI="#$lte"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$maxDistance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Projection_Operators"/>
+        <NamedIndividual IRI="#$meta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$minDistance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluationQueryOperators"/>
+        <NamedIndividual IRI="#$mod"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <NamedIndividual IRI="#$ne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$near"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$nearSphere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ComparisonQueryOperators"/>
+        <NamedIndividual IRI="#$nin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LogicalQueryOperators"/>
+        <NamedIndividual IRI="#$nor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LogicalQueryOperators"/>
+        <NamedIndividual IRI="#$not"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LogicalQueryOperators"/>
+        <NamedIndividual IRI="#$or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$polygon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluationQueryOperators"/>
+        <NamedIndividual IRI="#$regex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArrayQueryOperators"/>
+        <NamedIndividual IRI="#$size"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Projection_Operators"/>
+        <NamedIndividual IRI="#$slice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluationQueryOperators"/>
+        <NamedIndividual IRI="#$text"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ElementQueryOperators"/>
+        <NamedIndividual IRI="#$type"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GeospatialQueryOperators"/>
+        <NamedIndividual IRI="#$uniqueDocs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EvaluationQueryOperators"/>
+        <NamedIndividual IRI="#$where"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#perusahaan"/>
+        <NamedIndividual IRI="#10gen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bahasaPemrograman"/>
+        <NamedIndividual IRI="#C++"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Delete_Data"/>
+        <NamedIndividual IRI="#db.collection.deleteMany()"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Delete_Data"/>
+        <NamedIndividual IRI="#db.collection.deleteOne()"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Update_Data"/>
+        <NamedIndividual IRI="#db.collection.replaceOne(filter,replacement,options)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Update_Data"/>
+        <NamedIndividual IRI="#db.collection.updateMany(filter,update,options)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Read_Data"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.find(query,projection)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insert_Data"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertMany()"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Insert_Data"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertOne()"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Update_Data"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.updateOne(filter,update,options)"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#AutoStartService"/>
+        <NamedIndividual IRI="#cekStatusService"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produkDari"/>
+        <NamedIndividual IRI="#ConnectorforBI"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menemukan"/>
+        <NamedIndividual IRI="#Dwight_Merriman"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menemukan"/>
+        <NamedIndividual IRI="#Eliot_Horowitz"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#ImportPublicKey"/>
+        <NamedIndividual IRI="#buatFileRepository"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#InstallMongoDB"/>
+        <NamedIndividual IRI="#updateRepository"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#InstallMongoDB"/>
+        <NamedIndividual IRI="#jalankanServiceMongod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menemukan"/>
+        <NamedIndividual IRI="#KevinP.Ryan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produkDari"/>
+        <NamedIndividual IRI="#MongoDBCloudManager"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produkDari"/>
+        <NamedIndividual IRI="#MongoDBCompass"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produkDari"/>
+        <NamedIndividual IRI="#MongoDBEnterprise"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#buatDanGunakanDatabasePHP"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#buatFileRepository"/>
+        <NamedIndividual IRI="#ImportPublicKey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#buatFileRepository"/>
+        <NamedIndividual IRI="#updateRepository"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#buatFolderData"/>
+        <NamedIndividual IRI="#munculNotif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#buatFolderData"/>
+        <NamedIndividual IRI="#jalankanMongod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#bukaCMD"/>
+        <NamedIndividual IRI="#installFile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#bukaCMD"/>
+        <NamedIndividual IRI="#pindahDirektori"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#cekStatusService"/>
+        <NamedIndividual IRI="#jalankanServiceMongod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#cekStatusService"/>
+        <NamedIndividual IRI="#AutoStartService"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#createCollectionPHP"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#deleteCollection"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#deleteDataPHP"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#deleteDatabase"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#downloadMongoDB"/>
+        <NamedIndividual IRI="#installFile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#gunakanCommandMongo"/>
+        <NamedIndividual IRI="#jalankanMongod"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#insertDataPHP"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#installFile"/>
+        <NamedIndividual IRI="#downloadMongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#installFile"/>
+        <NamedIndividual IRI="#bukaCMD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#jalankanMongod"/>
+        <NamedIndividual IRI="#buatFolderData"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#jalankanMongod"/>
+        <NamedIndividual IRI="#gunakanCommandMongo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#jalankanMongod.exe"/>
+        <NamedIndividual IRI="#pindahDirektori"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#jalankanMongod.exe"/>
+        <NamedIndividual IRI="#munculNotif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#jalankanServiceMongod"/>
+        <NamedIndividual IRI="#InstallMongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#jalankanServiceMongod"/>
+        <NamedIndividual IRI="#cekStatusService"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#koneksiPHP"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dapatMenjalankan"/>
+        <NamedIndividual IRI="#linux"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dapatMenjalankan"/>
+        <NamedIndividual IRI="#macOS"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#membuatindexUnique"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#munculNotif"/>
+        <NamedIndividual IRI="#jalankanMongod.exe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#munculNotif"/>
+        <NamedIndividual IRI="#buatFolderData"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#pindahDirektori"/>
+        <NamedIndividual IRI="#bukaCMD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#pindahDirektori"/>
+        <NamedIndividual IRI="#jalankanMongod.exe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#putusKoneksiPHP"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#queryDataPHP"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <NamedIndividual IRI="#updateDataPHP"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <NamedIndividual IRI="#updateRepository"/>
+        <NamedIndividual IRI="#buatFileRepository"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <NamedIndividual IRI="#updateRepository"/>
+        <NamedIndividual IRI="#InstallMongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dapatMenjalankan"/>
+        <NamedIndividual IRI="#windows"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <NamedIndividual IRI="#db.collection.deleteMany()"/>
+        <NamedIndividual IRI="#menghapusBanyakDokumen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <NamedIndividual IRI="#db.collection.deleteMany()"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <NamedIndividual IRI="#db.collection.deleteOne()"/>
+        <NamedIndividual IRI="#menghapusSebuahDokumen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <NamedIndividual IRI="#db.collection.deleteOne()"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <NamedIndividual IRI="#db.collection.replaceOne(filter,replacement,options)"/>
+        <NamedIndividual IRI="#contohReplace"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <NamedIndividual IRI="#db.collection.replaceOne(filter,replacement,options)"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <NamedIndividual IRI="#db.collection.updateMany(filter,update,options)"/>
+        <NamedIndividual IRI="#contohUpdateMany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <NamedIndividual IRI="#db.collection.updateMany(filter,update,options)"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#berjalanPadaSistemOperasi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#linux"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#berjalanPadaSistemOperasi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#macOS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#berjalanPadaSistemOperasi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#windows"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diDirikanOleh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Dwight_Merriman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diDirikanOleh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Eliot_Horowitz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#diDirikanOleh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#KevinP.Ryan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#ConnectorforBI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#MongoDBCloudManager"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#MongoDBCompass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memiliki"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#MongoDBEnterprise"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#CSharp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Erlang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#FSharp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Haskell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Java"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#JavaScript"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Lips"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#PHP"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Perl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#PowerShell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#Scala"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mendukung"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <NamedIndividual IRI="#C++"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.find(query,projection)"/>
+        <NamedIndividual IRI="#contohFind"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.find(query,projection)"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertMany()"/>
+        <NamedIndividual IRI="#menambahBeberapaDokumenTanpaID"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertMany()"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertOne()"/>
+        <NamedIndividual IRI="#menambahDokumenTanpaMenyebutkanID"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertOne()"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.updateOne(filter,update,options)"/>
+        <NamedIndividual IRI="#contohUpdateOne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.updateOne(filter,update,options)"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#Auto-sharding"/>
+        <Literal>Auto-sharding, merupakan fitur untuk memecah database yang besar menjadi beberapa bagian demi optimalisasi performa database. Penggunaannya sendiri sangat berguna ketika memiliki website dengan database yang jutaan baris, sharding akan membantu memecahnya menjadi beberapa bagian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#AutoStartService"/>
+        <Literal>sudo systemctl enable mongod</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#ConnectorforBI"/>
+        <Literal>allows users to create queries with SQL and visualize, graph, and report on their MongoDB Enterprise data using existing relational business intelligence tools such as Tableau, MicroStrategy, and Qlik.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#Cross-platform"/>
+        <Literal>Cross-platform, sehingga dapat digunakan di Windows, Linux, OS X dan Solaris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memilikiJabatan"/>
+        <NamedIndividual IRI="#Dwight_Merriman"/>
+        <Literal>chairman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memilikiNama"/>
+        <NamedIndividual IRI="#Dwight_Merriman"/>
+        <Literal>Dwight Merriman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memilikiJabatan"/>
+        <NamedIndividual IRI="#Eliot_Horowitz"/>
+        <Literal>CTO</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memilikiNama"/>
+        <NamedIndividual IRI="#Eliot_Horowitz"/>
+        <Literal>Eliot Horowitz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#ImportPublicKey"/>
+        <Literal>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#InstallMongoDB"/>
+        <Literal>sudo apt-get install mongodb-org</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memilikiJabatan"/>
+        <NamedIndividual IRI="#KevinP.Ryan"/>
+        <Literal>board member</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#memilikiNama"/>
+        <NamedIndividual IRI="#KevinP.Ryan"/>
+        <Literal>Kevin P. Ryan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#MongoDBCloudManager"/>
+        <Literal>MongoDB Cloud Manager can automate, monitor, and back up your MongoDB infrastructure.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#MongoDBCompass"/>
+        <Literal>MongoDB Compass is the GUI for MongoDB. Compass allows you to analyze and understand the contents of your data without formal knowledge of MongoDB query syntax. In addition to exploring your data in a visual environment, you can also use Compass to optimize query performance, manage indexes, and implement document validation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#MongoDBEnterprise"/>
+        <Literal>The MongoDB Enterprise Kubernetes Operator translates the human knowledge of creating a MongoDB instance into a scalable, repeatable, and standardized method. Kubernetes needs help creating and managing stateful applications like databases. It needs to configure the network, persist storage, and dedicate computing capacity without additional human effort on each container.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#Replikasi"/>
+        <Literal>Replikasi, adalah fitur yang sangat bermanfaat untuk backup data secara realtime. MongoDB sangat cocok digunakan untuk portal berita ataupun blog,.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#buatDanGunakanDatabasePHP"/>
+        <Literal>$db = $link-&gt;cobadb;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#buatFileRepository"/>
+        <Literal>echo &quot;deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse&quot; | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#buatFolderData"/>
+        <Literal>Buat folder dengan nama data pada direktori C: dan dan didalamnya ada folder dengan nama db</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#bukaCMD"/>
+        <Literal>Buka command line atau Command Prompt dengan akses Administrator</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#cekStatusService"/>
+        <Literal>sudo systemctl status mongod</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#contohFind"/>
+        <Literal>db.collection.find( { qty: { $gt: 4 } } )</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <NamedIndividual IRI="#contohFind"/>
+        <Literal>{ &quot;_id&quot;: &quot;apples&quot;, &quot;qty&quot;: 5 }
+{ &quot;_id&quot;: &quot;bananas&quot;, &quot;qty&quot;: 7 }</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#contohReplace"/>
+        <Literal>try {
+   db.restaurant.replaceOne(
+      { &quot;name&quot; : &quot;Central Perk Cafe&quot; },
+      { &quot;name&quot; : &quot;Central Pork Cafe&quot;, &quot;Borough&quot; : &quot;Manhattan&quot; }
+   );
+} catch (e){
+   print(e);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <NamedIndividual IRI="#contohReplace"/>
+        <Literal>{ &quot;acknowledged&quot; : true, &quot;matchedCount&quot; : 1, &quot;modifiedCount&quot; : 1 }</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#contohUpdateMany"/>
+        <Literal>try {
+   db.restaurant.updateMany(
+      { violations: { $gt: 4 } },
+      { $set: { &quot;Review&quot; : true } }
+   );
+} catch (e) {
+   print(e);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <NamedIndividual IRI="#contohUpdateMany"/>
+        <Literal>{ &quot;acknowledged&quot; : true, &quot;matchedCount&quot; : 2, &quot;modifiedCount&quot; : 2 }</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#contohUpdateOne"/>
+        <Literal>try {
+   db.restaurant.updateOne(
+      { &quot;name&quot; : &quot;Central Perk Cafe&quot; },
+      { $set: { &quot;violations&quot; : 3 } }
+   );
+} catch (e) {
+   print(e);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <NamedIndividual IRI="#contohUpdateOne"/>
+        <Literal>{ &quot;acknowledged&quot; : true, &quot;matchedCount&quot; : 1, &quot;modifiedCount&quot; : 1 }</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#createCollectionPHP"/>
+        <Literal>$col = $db-&gt;user;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#deleteCollection"/>
+        <Literal>$col-&gt;drop();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#deleteDataPHP"/>
+        <Literal>$col-&gt;remove(array(&apos;age&apos;=&gt;24),
+             array(&apos;justOne&apos;=&gt;true,&apos;safe&apos;=&gt;true));</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#deleteDatabase"/>
+        <Literal>$db-&gt;drop();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#downloadMongoDB"/>
+        <Literal>Melakukan download pada website mongodb.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#gunakanCommandMongo"/>
+        <Literal>Kemudian untuk mulai menggunakan mongoDB bisa menggunakan command mongo pada file direktori &quot;C:\Program Files\MongoDB\Server\4.2\bin&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#insertDataPHP"/>
+        <Literal>$doc = array(&apos;login&apos; =&gt; &apos;cobadb&apos;, 
+             &apos;password&apos; =&gt; &apos;wahyusptd9898&apos;, 
+             &apos;email&apos;    =&gt; &apos;wahyusptd@gmail.com&apos;);
+
+$col-&gt;insert($doc,true);</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#installFile"/>
+        <Literal>Install file dengan ektensi .msi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#jalankanMongod"/>
+        <Literal>Lakukan langkah eksekusi command mongod sekali lagi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#jalankanMongod.exe"/>
+        <Literal>Lakukan eksekusi pada file mongod.exe dengan command mongod</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#jalankanServiceMongod"/>
+        <Literal>sudo systemctl start mongod</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#koneksiPHP"/>
+        <Literal>try
+{
+	$link = new Mongo();
+}
+catch(MongoConncetionException $e)
+{
+	die(&quot;Koneksi Gagal. cek untuk memastikan MongoDB nya jalan&quot;);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#membuatindexUnique"/>
+        <Literal>$col-&gt;ensureIndex(array(&quot;login&quot; =&gt; 1),
+                  array(&quot;unique&quot; =&gt; true, &quot;dropDups&quot; =&gt;true));</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#menambahBeberapaDokumenTanpaID"/>
+        <Literal>try {
+   db.products.insertMany( [
+      { item: &quot;card&quot;, qty: 15 },
+      { item: &quot;envelope&quot;, qty: 20 },
+      { item: &quot;stamps&quot; , qty: 30 }
+   ] );
+} catch (e) {
+   print (e);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <NamedIndividual IRI="#menambahBeberapaDokumenTanpaID"/>
+        <Literal>{
+   &quot;acknowledged&quot; : true,
+   &quot;insertedIds&quot; : [
+      ObjectId(&quot;562a94d381cb9f1cd6eb0e1a&quot;),
+      ObjectId(&quot;562a94d381cb9f1cd6eb0e1b&quot;),
+      ObjectId(&quot;562a94d381cb9f1cd6eb0e1c&quot;)
+   ]
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#menambahDokumenTanpaMenyebutkanID"/>
+        <Literal>try {
+   db.products.insertOne( {item: &quot;card&quot;, qty: 15 } );
+} catch (e) {
+   print (e);
+};</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <NamedIndividual IRI="#menambahDokumenTanpaMenyebutkanID"/>
+        <Literal>{
+   &quot;acknowledged&quot; : true,
+   &quot;insertedId&quot; : ObjectId(&quot;56fc40f9d735c28df206d078&quot;)
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#menghapusBanyakDokumen"/>
+        <Literal>try {
+   db.orders.deleteMany( { &quot;client&quot; : &quot;Crude Traders Inc.&quot; } );
+} catch (e) {
+   print (e);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <NamedIndividual IRI="#menghapusBanyakDokumen"/>
+        <Literal>{ &quot;acknowledged&quot; : true, &quot;deletedCount&quot; : 10 }</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#menghapusSebuahDokumen"/>
+        <Literal>try {
+   db.orders.deleteOne( { &quot;_id&quot; : ObjectId(&quot;563237a41a4d68582c2509da&quot;) } );
+} catch (e) {
+   print(e);
+}</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <NamedIndividual IRI="#menghapusSebuahDokumen"/>
+        <Literal>{ &quot;acknowledged&quot; : true, &quot;deletedCount&quot; : 1 }</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#munculNotif"/>
+        <Literal>Akan ada notifikasi bahwa file data database belum dibuat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#performaCepat"/>
+        <Literal>Performa yang ditawarkan MongoDB lebih cepat dibandingkan MySQL ini disebabkan oleh memcached dan format dokumennya yang berbentuk seperti JSON</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#perluServer"/>
+        <Literal>MongoDB harus diinstall di sebuah server</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#pindahDirektori"/>
+        <Literal>Pindah direktori kebagian &quot;C:\Program Files\MongoDB\Server\4.2\bin&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#putusKoneksiPHP"/>
+        <Literal>$link-&gt;close();</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#queryDataPHP"/>
+        <Literal>$res = $col-&gt;find();
+echo &apos;Semua Document :&apos;;
+
+foreach($res as $doc){
+    echo &apos;&lt;pre&gt;&apos;;
+    print_r($doc);
+    echo &apos;&lt;/pre&gt;&apos;;
+}
+
+// Query untuk document yang sesuai dengan ID terakhir di input
+$doc = $col-&gt;findone(array(&apos;_id&apos; =&gt; $id));
+       echo &apos;document _id : $id&apos;;
+       echo &apos;&lt;pre&gt;&apos;;
+           print_r($doc);
+       echo &apos;&lt;/pre&gt;&apos;;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#sedikitHostingYangSupport"/>
+        <Literal>MongoDB belum support di banyak hosting.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#tidakCocokAppTransaksi"/>
+        <Literal>Tidak cocok untuk aplikasi proses transaksi.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#updateDataPHP"/>
+        <Literal>$col-&gt;update(array(&apos;_id&apos; =&gt; $id), 
+             array(&apos;$set&apos; =&gt; array(&apos;password&apos; =&gt; &apos;wahyusptd8989&apos;)));
+$doc = $col-&gt;findone(array(&apos;_id&apos;=&gt;$id));
+       echo &apos;Updated document: &lt;br /&gt;&lt;pre&gt;&apos;;
+           print_r($doc);
+       echo &apos;&lt;/pre&gt;&apos;;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contohSyntax"/>
+        <NamedIndividual IRI="#updateRepository"/>
+        <Literal>sudo apt-get update</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$"/>
+        <Literal>Projects the first element in an array that matches the query condition.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$all"/>
+        <Literal>Matches arrays that contain all elements specified in the query.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$and"/>
+        <Literal>Joins query clauses with a logical AND returns all documents that match the conditions of both clauses.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$bitsAllClear"/>
+        <Literal>Matches numeric or binary values in which a set of bit positions all have a value of 0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$bitsAllSet"/>
+        <Literal>Matches numeric or binary values in which a set of bit positions all have a value of 1.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$bitsAnyClear"/>
+        <Literal>Matches numeric or binary values in which any bit from a set of bit positions has a value of 0.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$bitsAnySet"/>
+        <Literal>Matches numeric or binary values in which any bit from a set of bit positions has a value of 1.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$box"/>
+        <Literal>Specifies a rectangular box using legacy coordinate pairs for $geoWithin queries. The 2d index supports $box.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$center"/>
+        <Literal>Specifies a circle using legacy coordinate pairs to $geoWithin queries when using planar geometry. The 2d index supports $center.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$centerSphere"/>
+        <Literal>Specifies a circle using either legacy coordinate pairs or GeoJSON format for $geoWithin queries when using spherical geometry. The 2dsphere and 2d indexes support $centerSphere.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$comment"/>
+        <Literal>The $comment query operator associates a comment to any expression taking a query predicate.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$elemMatch"/>
+        <Literal>Selects documents if element in the array field matches all the specified $elemMatch conditions.	Projects the first element in an array that matches the specified $elemMatch condition.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$eq"/>
+        <Literal>Matches values that are equal to a specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$exists"/>
+        <Literal>Matches documents that have the specified field.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$expr"/>
+        <Literal>Allows use of aggregation expressions within the query language.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$geoIntersects"/>
+        <Literal>Selects geometries that intersect with a GeoJSON geometry. The 2dsphere index supports $geoIntersects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$geoWithin"/>
+        <Literal>Selects geometries within a bounding GeoJSON geometry. The 2dsphere and 2d indexes support $geoWithin.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$geometry"/>
+        <Literal>Specifies a geometry in GeoJSON format to geospatial query operators.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$gt"/>
+        <Literal>Matches values that are greater than a specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$gte"/>
+        <Literal>Matches values that are greater than or equal to a specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$in"/>
+        <Literal>Matches any of the values specified in an array.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$jsonSchema"/>
+        <Literal>Validate documents against the given JSON Schema.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$lt"/>
+        <Literal>Matches values that are less than a specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$lte"/>
+        <Literal>Matches values that are less than or equal to a specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$maxDistance"/>
+        <Literal>Specifies a maximum distance to limit the results of $near and $nearSphere queries. The 2dsphere and 2d indexes support $maxDistance.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$meta"/>
+        <Literal>Projects the document’s score assigned during $text operation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$minDistance"/>
+        <Literal>Specifies a minimum distance to limit the results of $near and $nearSphere queries. For use with 2dsphere index only.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$mod"/>
+        <Literal>Performs a modulo operation on the value of a field and selects documents with a specified result.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$ne"/>
+        <Literal>Matches all values that are not equal to a specified value.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$near"/>
+        <Literal>Returns geospatial objects in proximity to a point. Requires a geospatial index. The 2dsphere and 2d indexes support $near.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$nearSphere"/>
+        <Literal>Returns geospatial objects in proximity to a point on a sphere. Requires a geospatial index. The 2dsphere and 2d indexes support $nearSphere.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$nin"/>
+        <Literal>Matches none of the values specified in an array.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$nor"/>
+        <Literal>Joins query clauses with a logical NOR returns all documents that fail to match both clauses.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$not"/>
+        <Literal>Inverts the effect of a query expression and returns documents that do not match the query expression.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$or"/>
+        <Literal>Joins query clauses with a logical OR returns all documents that match the conditions of either clause.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$polygon"/>
+        <Literal>Specifies a polygon to using legacy coordinate pairs for $geoWithin queries. The 2d index supports $center.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$regex"/>
+        <Literal>Selects documents where values match a specified regular expression.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$size"/>
+        <Literal>Selects documents if the array field is a specified size.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$slice"/>
+        <Literal>Limits the number of elements projected from an array. Supports skip and limit slices.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$text"/>
+        <Literal>Performs text search.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$type"/>
+        <Literal>Selects documents if a field is of the specified type.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$uniqueDocs"/>
+        <Literal>Deprecated. Modifies a $geoWithin and $near queries to ensure that even if a document matches the query multiple times, the query returns the document once.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deskripsi"/>
+        <NamedIndividual IRI="#$where"/>
+        <Literal>Matches documents that satisfy a JavaScript expression.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <NamedIndividual IRI="#db.collection.deleteMany()"/>
+        <Literal>Menghapus semua dokumen yang memenuhi syarat filter dari sebuah collection</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <NamedIndividual IRI="#db.collection.deleteOne()"/>
+        <Literal>Menghapus sebuah dokumen dari sebuah collection</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <NamedIndividual IRI="#db.collection.replaceOne(filter,replacement,options)"/>
+        <Literal>Mengganti sebuah dokumen berdasarkan  filter pada collection</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <NamedIndividual IRI="#db.collection.updateMany(filter,update,options)"/>
+        <Literal>mengupdate semua dokumen yang sama dengan filter yang disbutkan untuk sebuah collection.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dikembangkanSejakTahun"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#dirilisPadaTahun"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#website"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#MongoDB"/>
+        <Literal>mongodb.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.find(query,projection)"/>
+        <Literal>Mengambil data yang memenuhi syarat parameter query dan projection</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertMany()"/>
+        <Literal>Menambahkan banyak data</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.insertOne()"/>
+        <Literal>Menambahkan satu data</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#db.collection.updateOne(filter,update,options)"/>
+        <Literal>Mengupdate sebuah dokumen tunggal dalam collection berdasarkan filter</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#menggunakanOperator"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#berjalanPadaSistemOperasi"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dapatMenjalankan"/>
+        <Class IRI="#SistemOperasi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diDirikanOleh"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <Class IRI="#konfigurasi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <Class IRI="#konfigurasi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memiliki"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <Class IRI="#SintaksDasar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mendukung"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#menemukan"/>
+        <Class IRI="#Orang"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mengembangkan"/>
+        <Class IRI="#perusahaan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produkDari"/>
+        <Class IRI="#produk"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <Class IRI="#SintaksDasar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#berjalanPadaSistemOperasi"/>
+        <Class IRI="#SistemOperasi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dapatMenjalankan"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diDirikanOleh"/>
+        <Class IRI="#Orang"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#langkahSebelumnya"/>
+        <Class IRI="#konfigurasi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#langkahSelanjutnya"/>
+        <Class IRI="#konfigurasi"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memiliki"/>
+        <Class IRI="#kelebihan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memiliki"/>
+        <Class IRI="#produk"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#memilikiContoh"/>
+        <Class IRI="#Script"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mendukung"/>
+        <Class IRI="#bahasaPemrograman"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#menemukan"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mengembangkan"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#menggunakanBahasa"/>
+        <Class IRI="#bahasaPemrograman"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produkDari"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#syntaxPada"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#dibutuhkanKapasitasMinimum"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#dirilisPadaTahun"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#memilikiJabatan"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#memilikiNama"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#versiMinimum"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#website"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contohSyntax"/>
+        <Class IRI="#Script"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#deskripsi"/>
+        <Class IRI="#produk"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dikembangkanSejakTahun"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dirilisPadaTahun"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <Class IRI="#Insert_Data"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#memilikiJabatan"/>
+        <Class IRI="#Orang"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#memilikiNama"/>
+        <Class IRI="#Orang"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <Class IRI="#Script"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mengembangkan"/>
+        <Class IRI="#perusahaan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#versiMinimum"/>
+        <Class IRI="#SistemOperasi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#website"/>
+        <Class IRI="http://www.semanticweb.org/benz/ontologies/2019/10/untitled-ontology-8#DBMS"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#contohSyntax"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#deskripsi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dibutuhkanKapasitasMinimum"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dikembangkanSejakTahun"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dirilisPadaTahun"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fungsiSyntax"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#memilikiJabatan"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#memilikiNama"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mengembalikanNilai"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#website"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
